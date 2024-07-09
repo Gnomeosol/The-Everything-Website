@@ -1,4 +1,10 @@
-body { background-color: #222; margin: 0; }
+@import url('https://fonts.googleapis.com/css2?family=Rowdies:wght@300;400;700&display=swap');
+body { background-color: #222; margin: 0; width: 100%; font-family: "Rowdies"; font-weight: 200; }
+button { transition: 0.1s; transition-timing-function: ease-in; }
 
-nav { padding: 20px 30px; border-bottom: 3px solid orange; }
-#main-logo { width: 50px; }
+nav { padding: 20px 30px; border-bottom: 3px solid #69c; }
+    #teg-logo { width: 75px; border-radius: 75px; }
+    #login-button { margin-right: 30px; }
+    nav button { width: 200px; height: 70px; margin-top: 2px; float: right; font-size: 40px; font-family: "Rowdies"; font-weight: 200; color: #fff; background-color: #69c; border: #357 solid 5px; border-radius: 20px; }
+        nav button:hover { background-color: #357; color: #aaa; }
+        nav button:active { background-color: #135; color: #777; }
